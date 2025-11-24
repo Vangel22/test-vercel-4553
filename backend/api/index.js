@@ -2,7 +2,11 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://test-vercel-4553-tdtp.vercel.app/",
+  })
+);
 
 const data = [
   {
