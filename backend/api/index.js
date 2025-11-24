@@ -4,7 +4,10 @@ const cors = require("cors");
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://test-vercel-4553.vercel.app"],
+    origin: [
+      "http://localhost:5173",
+      "https://test-vercel-4553-tdtp.vercel.app",
+    ],
   })
 );
 
